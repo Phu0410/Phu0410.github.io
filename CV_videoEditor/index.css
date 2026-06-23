@@ -14,7 +14,21 @@ body {
   column-gap: 5%;
   row-gap: 30px;
 }
+/* Im Trying fix this code for flexible in email */
+.contact li {
+    display: grid;
+    grid-template-columns: 25px 1fr;
+    gap: 8px;
+}
 
+.contact li span {
+    white-space: nowrap;
+}
+
+.contact li {
+    overflow-wrap: anywhere;
+}
+/* it finish here for fix code */
 .avatar img {
   width: 200px;
   height: 200px;
